@@ -1,1 +1,1 @@
-# papers
+# SNN-papers
