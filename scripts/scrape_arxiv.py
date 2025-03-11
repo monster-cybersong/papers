@@ -4,15 +4,37 @@ from datetime import datetime
 
 # 定义多个关键词
 keywords = [
-    "AIGC",
-    "Transformer",
-    "Diffusion",
-    "LLM"
+    # ① SNN 结构与神经元模型
+    "Spiking Neural Network",
+    "SNN",
+    "Spiking Neuron Model",
+    "Neuromorphic Computing",
+    
+    # ② SNN 结合其他神经网络
+    "Hybrid SNN",
+    "Spike-based Deep Learning",
+
+    # ③ SNN 在生物信号处理中的应用
+    "EEG SNN",
+    "Brain Signal Processing SNN",
+    "Bio-signal SNN",
+
+    # ④ SNN 硬件加速器
+    "SNN Accelerator",
+    "Neuromorphic Accelerator",
+    "ASIC SNN",
+    "FPGA SNN",
+    "Event-driven Hardware",
+    "Energy-efficient Neural Network Hardware",
+    
+    # ⑤ 兼容 SNN 的通用神经网络加速器
+    "Hybrid Neural Network Accelerator",
+    "Neuromorphic Processor",
 ]
 
 # 构建查询参数
 query = ' OR '.join([f'all:"{keyword}"' for keyword in keywords])
-query += ' AND ("accelerator" OR "FPGA")'
+query += ' AND ("hardware" OR "accelerator" OR "neuromorphic" OR "ASIC" OR "FPGA" OR "event-driven")'
 
 # 设置时间范围（2023 年以后的论文）
 start_date = "2023-01-01"
