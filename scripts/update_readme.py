@@ -23,8 +23,8 @@ if os.path.exists("papers/all_papers.json") and os.path.getsize("papers/all_pape
         papers = json.load(f)
     
     # 生成 Markdown 内容
-    markdown = "# AIGC Accelerator Design Papers\n\n"
-    markdown += "Automatically updated list of papers on AIGC Accelerator Designs.\n\n"
+    markdown = "# SNN Accelerator Design Papers\n\n"
+    markdown += "Automatically updated list of papers.\n\n"
     markdown += "| Title | Abstract | Link | Source | Date |\n"
     markdown += "|-------|----------|------|--------|------|\n"
 
