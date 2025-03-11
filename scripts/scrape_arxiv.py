@@ -4,35 +4,38 @@ from datetime import datetime
 
 # 定义多个关键词
 keywords = [
-    # ① SNN 结构与神经元模型
+    # ① SNN 及其神经元模型
     "Spiking Neural Network",
+    "Spiking Neural Networks",
     "SNN",
-    "Spiking Neuron Model",
-    "Neuromorphic Computing",
+    "Event-driven Neural Network",
+    "Spike-based Computing",
     
     # ② SNN 结合其他神经网络
     "Hybrid SNN",
-    "Spike-based Deep Learning",
-
+    "SNN Transformer",
+    "Neuromorphic Deep Learning",
+    
     # ③ SNN 在生物信号处理中的应用
     "EEG SNN",
     "Brain Signal Processing SNN",
-    "Bio-signal SNN",
-
+    "Bio-signal Processing SNN",
+    
     # ④ SNN 硬件加速器
     "SNN Accelerator",
     "Neuromorphic Accelerator",
     "ASIC SNN",
     "FPGA SNN",
+    "Digital SNN Hardware",
     "Event-driven Hardware",
-    "Energy-efficient Neural Network Hardware",
+    "Neuromorphic Chip",
+    "Energy-efficient SNN",
     
-    # ⑤ 兼容 SNN 的通用神经网络加速器
-    "Hybrid Neural Network Accelerator",
+    # ⑤ 适当扩大范围的神经网络硬件
+    "Low-power Neural Network Hardware",
     "Neuromorphic Processor",
 ]
 
-# 构建查询参数
 query = ' OR '.join([f'all:"{keyword}"' for keyword in keywords])
 query += ' AND ("hardware" OR "accelerator" OR "neuromorphic" OR "ASIC" OR "FPGA" OR "event-driven")'
 
