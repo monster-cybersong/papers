@@ -4,7 +4,7 @@ Automatically updated list of papers.
 
 | Title | Abstract | Link | Source | Date |
 |-------|----------|------|--------|------|
-| Waves and symbols in neuromorphic hardware: from analog signal processing to digital computing on the same computational substrate | No abstract available | [Link](http://arxiv.org/abs/2502.20381v1) | arXiv | 2025-02-27 18:55:17 |
+| Enabling Efficient Processing of Spiking Neural Networks with On&#45;Chip Learning on Commodity Neuromorphic Processors for Edge AI Systems | No abstract available | [Link](http://arxiv.org/abs/2504.00957v1) | arXiv | 2025-04-01 16:52:03 |
 | Real&#45;time Sub&#45;milliwatt Epilepsy Detection Implemented on a Spiking Neural Network Edge Inference Processor | No abstract available | [Link](http://arxiv.org/abs/2410.16613v1) | arXiv | 2024-10-22 01:55:02 |
 | Analog Spiking Neuron in CMOS 28 nm Towards Large&#45;Scale Neuromorphic Processors | No abstract available | [Link](http://arxiv.org/abs/2408.07734v1) | arXiv | 2024-08-14 17:51:20 |
 | Event&#45;based Optical Flow on Neuromorphic Processor: ANN vs. SNN Comparison based on Activation Sparsification | No abstract available | [Link](http://arxiv.org/abs/2407.20421v1) | arXiv | 2024-07-29 21:22:53 |
