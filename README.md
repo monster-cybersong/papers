@@ -9,7 +9,7 @@ Automatically updated list of papers.
 | Real&#45;time Sub&#45;milliwatt Epilepsy Detection Implemented on a Spiking Neural Network Edge Inference Processor | No abstract available | [Link](http://arxiv.org/abs/2410.16613v1) | arXiv | 2024-10-22 01:55:02 |
 | Analog Spiking Neuron in CMOS 28 nm Towards Large&#45;Scale Neuromorphic Processors | No abstract available | [Link](http://arxiv.org/abs/2408.07734v1) | arXiv | 2024-08-14 17:51:20 |
 | Event&#45;based Optical Flow on Neuromorphic Processor: ANN vs. SNN Comparison based on Activation Sparsification | No abstract available | [Link](http://arxiv.org/abs/2407.20421v1) | arXiv | 2024-07-29 21:22:53 |
-| To Spike or Not to Spike, that is the Question | No abstract available | [Link](http://arxiv.org/abs/2407.19566v2) | arXiv | 2024-07-28 19:23:09 |
+| To Spike or Not to Spike, that is the Question | No abstract available | [Link](http://arxiv.org/abs/2407.19566v3) | arXiv | 2024-07-28 19:23:09 |
 | Evaluation of Encoding Schemes on Ubiquitous Sensor Signal for Spiking Neural Network | No abstract available | [Link](http://arxiv.org/abs/2407.09260v1) | arXiv | 2024-07-12 13:42:41 |
 | Towards Efficient Deployment of Hybrid SNNs on Neuromorphic and Edge AI Hardware | No abstract available | [Link](http://arxiv.org/abs/2407.08704v1) | arXiv | 2024-07-11 17:40:39 |
 | Micro&#45;power spoken keyword spotting on Xylo Audio 2 | No abstract available | [Link](http://arxiv.org/abs/2406.15112v1) | arXiv | 2024-06-21 12:59:37 |
