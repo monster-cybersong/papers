@@ -4,6 +4,7 @@ Automatically updated list of papers.
 
 | Title | Abstract | Link | Source | Date |
 |-------|----------|------|--------|------|
+| Adaptively Pruned Spiking Neural Networks for Energy&#45;Efficient Intracortical Neural Decoding | No abstract available | [Link](http://arxiv.org/abs/2504.11568v1) | arXiv | 2025-04-15 19:16:34 |
 | SpikeStream: Accelerating Spiking Neural Network Inference on RISC&#45;V Clusters with Sparse Computation Extensions | No abstract available | [Link](http://arxiv.org/abs/2504.06134v1) | arXiv | 2025-04-08 15:28:44 |
 | Enabling Efficient Processing of Spiking Neural Networks with On&#45;Chip Learning on Commodity Neuromorphic Processors for Edge AI Systems | No abstract available | [Link](http://arxiv.org/abs/2504.00957v1) | arXiv | 2025-04-01 16:52:03 |
 | Real&#45;time Sub&#45;milliwatt Epilepsy Detection Implemented on a Spiking Neural Network Edge Inference Processor | No abstract available | [Link](http://arxiv.org/abs/2410.16613v1) | arXiv | 2024-10-22 01:55:02 |
@@ -27,4 +28,3 @@ Automatically updated list of papers.
 | Open the box of digital neuromorphic processor: Towards effective algorithm&#45;hardware co&#45;design | No abstract available | [Link](http://arxiv.org/abs/2303.15224v1) | arXiv | 2023-03-27 14:03:11 |
 | Fully neuromorphic vision and control for autonomous drone flight | No abstract available | [Link](http://arxiv.org/abs/2303.08778v1) | arXiv | 2023-03-15 17:19:45 |
 | Gradient&#45;descent hardware&#45;aware training and deployment for mixed&#45;signal Neuromorphic processors | No abstract available | [Link](http://arxiv.org/abs/2303.12167v2) | arXiv | 2023-03-14 08:56:54 |
-| A Comparison of Temporal Encoders for Neuromorphic Keyword Spotting with Few Neurons | No abstract available | [Link](http://arxiv.org/abs/2301.09962v1) | arXiv | 2023-01-24 12:50:54 |

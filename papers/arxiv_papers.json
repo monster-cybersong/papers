@@ -1,5 +1,12 @@
 [
     {
+        "title": "Adaptively Pruned Spiking Neural Networks for Energy-Efficient\n  Intracortical Neural Decoding",
+        "summary": "Intracortical brain-machine interfaces demand low-latency, energy-efficient\nsolutions for neural decoding. Spiking Neural Networks (SNNs) deployed on\nneuromorphic hardware have demonstrated remarkable efficiency in neural\ndecoding by leveraging sparse binary activations and efficient spatiotemporal\nprocessing. However, reducing the computational cost of SNNs remains a critical\nchallenge for developing ultra-efficient intracortical neural implants. In this\nwork, we introduce a novel adaptive pruning algorithm specifically designed for\nSNNs with high activation sparsity, targeting intracortical neural decoding.\nOur method dynamically adjusts pruning decisions and employs a rollback\nmechanism to selectively eliminate redundant synaptic connections without\ncompromising decoding accuracy. Experimental evaluation on the NeuroBench\nNon-Human Primate (NHP) Motor Prediction benchmark shows that our pruned\nnetwork achieves performance comparable to dense networks, with a maximum\ntenfold improvement in efficiency. Moreover, hardware simulation on the\nneuromorphic processor reveals that the pruned network operates at sub-$\\mu$W\npower levels, underscoring its potential for energy-constrained neural\nimplants. These results underscore the promise of our approach for advancing\nenergy-efficient intracortical brain-machine interfaces with low-overhead\non-device intelligence.",
+        "link": "http://arxiv.org/abs/2504.11568v1",
+        "source": "arXiv",
+        "date": "2025-04-15 19:16:34"
+    },
+    {
         "title": "SpikeStream: Accelerating Spiking Neural Network Inference on RISC-V\n  Clusters with Sparse Computation Extensions",
         "summary": "Spiking Neural Network (SNN) inference has a clear potential for high energy\nefficiency as computation is triggered by events. However, the inherent\nsparsity of events poses challenges for conventional computing systems, driving\nthe development of specialized neuromorphic processors, which come with high\nsilicon area costs and lack the flexibility needed for running other\ncomputational kernels, limiting widespread adoption. In this paper, we explore\nthe low-level software design, parallelization, and acceleration of SNNs on\ngeneral-purpose multicore clusters with a low-overhead RISC-V ISA extension for\nstreaming sparse computations. We propose SpikeStream, an optimization\ntechnique that maps weights accesses to affine and indirect register-mapped\nmemory streams to enhance performance, utilization, and efficiency. Our results\non the end-to-end Spiking-VGG11 model demonstrate a significant 4.39x speedup\nand an increase in utilization from 9.28% to 52.3% compared to a non-streaming\nparallel baseline. Additionally, we achieve an energy efficiency gain of 3.46x\nover LSMCore and a performance gain of 2.38x over Loihi.",
         "link": "http://arxiv.org/abs/2504.06134v1",
@@ -159,12 +166,5 @@
         "link": "http://arxiv.org/abs/2303.12167v2",
         "source": "arXiv",
         "date": "2023-03-14 08:56:54"
-    },
-    {
-        "title": "A Comparison of Temporal Encoders for Neuromorphic Keyword Spotting with\n  Few Neurons",
-        "summary": "With the expansion of AI-powered virtual assistants, there is a need for\nlow-power keyword spotting systems providing a \"wake-up\" mechanism for\nsubsequent computationally expensive speech recognition. One promising approach\nis the use of neuromorphic sensors and spiking neural networks (SNNs)\nimplemented in neuromorphic processors for sparse event-driven sensing.\nHowever, this requires resource-efficient SNN mechanisms for temporal encoding,\nwhich need to consider that these systems process information in a streaming\nmanner, with physical time being an intrinsic property of their operation. In\nthis work, two candidate neurocomputational elements for temporal encoding and\nfeature extraction in SNNs described in recent literature - the spiking\ntime-difference encoder (TDE) and disynaptic excitatory-inhibitory (E-I)\nelements - are comparatively investigated in a keyword-spotting task on\nformants computed from spoken digits in the TIDIGITS dataset. While both\nencoders improve performance over direct classification of the formant features\nin the training data, enabling a complete binary classification with a logistic\nregression model, they show no clear improvements on the test set.\nResource-efficient keyword spotting applications may benefit from the use of\nthese encoders, but further work on methods for learning the time constants and\nweights is required to investigate their full potential.",
-        "link": "http://arxiv.org/abs/2301.09962v1",
-        "source": "arXiv",
-        "date": "2023-01-24 12:50:54"
     }
 ]
