@@ -4,6 +4,7 @@ Automatically updated list of papers.
 
 | Title | Abstract | Link | Source | Date |
 |-------|----------|------|--------|------|
+| Energy efficiency analysis of Spiking Neural Networks for space applications | No abstract available | [Link](http://arxiv.org/abs/2505.11418v1) | arXiv | 2025-05-16 16:29:50 |
 | Adaptively Pruned Spiking Neural Networks for Energy&#45;Efficient Intracortical Neural Decoding | No abstract available | [Link](http://arxiv.org/abs/2504.11568v1) | arXiv | 2025-04-15 19:16:34 |
 | SpikeStream: Accelerating Spiking Neural Network Inference on RISC&#45;V Clusters with Sparse Computation Extensions | No abstract available | [Link](http://arxiv.org/abs/2504.06134v1) | arXiv | 2025-04-08 15:28:44 |
 | Enabling Efficient Processing of Spiking Neural Networks with On&#45;Chip Learning on Commodity Neuromorphic Processors for Edge AI Systems | No abstract available | [Link](http://arxiv.org/abs/2504.00957v2) | arXiv | 2025-04-01 16:52:03 |
