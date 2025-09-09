@@ -4,6 +4,7 @@ Automatically updated list of papers.
 
 | Title | Abstract | Link | Source | Date |
 |-------|----------|------|--------|------|
+| Fully Integrated Memristive Spiking Neural Network with Analog Neurons for High&#45;Speed Event&#45;Based Data Processing | No abstract available | [Link](http://arxiv.org/abs/2509.04960v1) | arXiv | 2025-09-05 09:38:27 |
 | Energy efficiency analysis of Spiking Neural Networks for space applications | No abstract available | [Link](http://arxiv.org/abs/2505.11418v1) | arXiv | 2025-05-16 16:29:50 |
 | Adaptively Pruned Spiking Neural Networks for Energy&#45;Efficient Intracortical Neural Decoding | No abstract available | [Link](http://arxiv.org/abs/2504.11568v1) | arXiv | 2025-04-15 19:16:34 |
 | SpikeStream: Accelerating Spiking Neural Network Inference on RISC&#45;V Clusters with Sparse Computation Extensions | No abstract available | [Link](http://arxiv.org/abs/2504.06134v1) | arXiv | 2025-04-08 15:28:44 |
