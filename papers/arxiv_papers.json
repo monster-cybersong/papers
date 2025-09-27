@@ -1,31 +1,10 @@
 [
     {
-        "title": "Adaptively Pruned Spiking Neural Networks for Energy-Efficient\n  Intracortical Neural Decoding",
-        "summary": "Intracortical brain-machine interfaces demand low-latency, energy-efficient\nsolutions for neural decoding. Spiking Neural Networks (SNNs) deployed on\nneuromorphic hardware have demonstrated remarkable efficiency in neural\ndecoding by leveraging sparse binary activations and efficient spatiotemporal\nprocessing. However, reducing the computational cost of SNNs remains a critical\nchallenge for developing ultra-efficient intracortical neural implants. In this\nwork, we introduce a novel adaptive pruning algorithm specifically designed for\nSNNs with high activation sparsity, targeting intracortical neural decoding.\nOur method dynamically adjusts pruning decisions and employs a rollback\nmechanism to selectively eliminate redundant synaptic connections without\ncompromising decoding accuracy. Experimental evaluation on the NeuroBench\nNon-Human Primate (NHP) Motor Prediction benchmark shows that our pruned\nnetwork achieves performance comparable to dense networks, with a maximum\ntenfold improvement in efficiency. Moreover, hardware simulation on the\nneuromorphic processor reveals that the pruned network operates at sub-$\\mu$W\npower levels, underscoring its potential for energy-constrained neural\nimplants. These results underscore the promise of our approach for advancing\nenergy-efficient intracortical brain-machine interfaces with low-overhead\non-device intelligence.",
-        "link": "http://arxiv.org/abs/2504.11568v1",
-        "source": "arXiv",
-        "date": "2025-04-15 19:16:34"
-    },
-    {
-        "title": "SpikeStream: Accelerating Spiking Neural Network Inference on RISC-V\n  Clusters with Sparse Computation Extensions",
-        "summary": "Spiking Neural Network (SNN) inference has a clear potential for high energy\nefficiency as computation is triggered by events. However, the inherent\nsparsity of events poses challenges for conventional computing systems, driving\nthe development of specialized neuromorphic processors, which come with high\nsilicon area costs and lack the flexibility needed for running other\ncomputational kernels, limiting widespread adoption. In this paper, we explore\nthe low-level software design, parallelization, and acceleration of SNNs on\ngeneral-purpose multicore clusters with a low-overhead RISC-V ISA extension for\nstreaming sparse computations. We propose SpikeStream, an optimization\ntechnique that maps weights accesses to affine and indirect register-mapped\nmemory streams to enhance performance, utilization, and efficiency. Our results\non the end-to-end Spiking-VGG11 model demonstrate a significant 4.39x speedup\nand an increase in utilization from 9.28% to 52.3% compared to a non-streaming\nparallel baseline. Additionally, we achieve an energy efficiency gain of 3.46x\nover LSMCore and a performance gain of 2.38x over Loihi.",
-        "link": "http://arxiv.org/abs/2504.06134v1",
-        "source": "arXiv",
-        "date": "2025-04-08 15:28:44"
-    },
-    {
         "title": "Enabling Efficient Processing of Spiking Neural Networks with On-Chip\n  Learning on Commodity Neuromorphic Processors for Edge AI Systems",
         "summary": "The rising demand for energy-efficient edge AI systems (e.g., mobile\nagents/robots) has increased the interest in neuromorphic computing, since it\noffers ultra-low power/energy AI computation through spiking neural network\n(SNN) algorithms on neuromorphic processors. However, their efficient\nimplementation strategy has not been comprehensively studied, hence limiting\nSNN deployments for edge AI systems. Toward this, we propose a design\nmethodology to enable efficient SNN processing on commodity neuromorphic\nprocessors. To do this, we first study the key characteristics of targeted\nneuromorphic hardware (e.g., memory and compute budgets), and leverage this\ninformation to perform compatibility analysis for network selection. Afterward,\nwe employ a mapping strategy for efficient SNN implementation on the targeted\nprocessor. Furthermore, we incorporate an efficient on-chip learning mechanism\nto update the systems' knowledge for adapting to new input classes and dynamic\nenvironments. The experimental results show that the proposed methodology leads\nthe system to achieve low latency of inference (i.e., less than 50ms for image\nclassification, less than 200ms for real-time object detection in video\nstreaming, and less than 1ms in keyword recognition) and low latency of on-chip\nlearning (i.e., less than 2ms for keyword recognition), while incurring less\nthan 250mW of processing power and less than 15mJ of energy consumption across\nthe respective different applications and scenarios. These results show the\npotential of the proposed methodology in enabling efficient edge AI systems for\ndiverse application use-cases.",
         "link": "http://arxiv.org/abs/2504.00957v2",
         "source": "arXiv",
         "date": "2025-04-01 16:52:03"
-    },
-    {
-        "title": "Event-based Optical Flow on Neuromorphic Processor: ANN vs. SNN\n  Comparison based on Activation Sparsification",
-        "summary": "Spiking neural networks (SNNs) for event-based optical flow are claimed to be\ncomputationally more efficient than their artificial neural networks (ANNs)\ncounterparts, but a fair comparison is missing in the literature. In this work,\nwe propose an event-based optical flow solution based on activation\nsparsification and a neuromorphic processor, SENECA. SENECA has an event-driven\nprocessing mechanism that can exploit the sparsity in ANN activations and SNN\nspikes to accelerate the inference of both types of neural networks. The ANN\nand the SNN for comparison have similar low activation/spike density (~5%)\nthanks to our novel sparsification-aware training. In the hardware-in-loop\nexperiments designed to deduce the average time and energy consumption, the SNN\nconsumes 44.9ms and 927.0 microjoules, which are 62.5% and 75.2% of the ANN's\nconsumption, respectively. We find that SNN's higher efficiency attributes to\nits lower pixel-wise spike density (43.5% vs. 66.5%) that requires fewer memory\naccess operations for neuron states.",
-        "link": "http://arxiv.org/abs/2407.20421v1",
-        "source": "arXiv",
-        "date": "2024-07-29 21:22:53"
     },
     {
         "title": "Towards Efficient Deployment of Hybrid SNNs on Neuromorphic and Edge AI\n  Hardware",
@@ -49,13 +28,6 @@
         "date": "2024-05-24 15:03:56"
     },
     {
-        "title": "EchoSpike Predictive Plasticity: An Online Local Learning Rule for\n  Spiking Neural Networks",
-        "summary": "The drive to develop artificial neural networks that efficiently utilize\nresources has generated significant interest in bio-inspired Spiking Neural\nNetworks (SNNs). These networks are particularly attractive due to their\npotential in applications requiring low power and memory. This potential is\nfurther enhanced by the ability to perform online local learning, enabling them\nto adapt to dynamic environments. This requires the model to be adaptive in a\nself-supervised manner. While self-supervised learning has seen great success\nin many deep learning domains, its application for online local learning in\nmulti-layer SNNs remains underexplored. In this paper, we introduce the\n\"EchoSpike Predictive Plasticity\" (ESPP) learning rule, a pioneering online\nlocal learning rule designed to leverage hierarchical temporal dynamics in SNNs\nthrough predictive and contrastive coding. We validate the effectiveness of\nthis approach using benchmark datasets, demonstrating that it performs on par\nwith current state-of-the-art supervised learning rules. The temporal and\nspatial locality of ESPP makes it particularly well-suited for low-cost\nneuromorphic processors, representing a significant advancement in developing\nbiologically plausible self-supervised learning models for neuromorphic\ncomputing at the edge.",
-        "link": "http://arxiv.org/abs/2405.13976v2",
-        "source": "arXiv",
-        "date": "2024-05-22 20:20:43"
-    },
-    {
         "title": "Performance Evaluation of Neuromorphic Hardware for Onboard Satellite\n  Communication Applications",
         "summary": "Spiking neural networks (SNNs) implemented on neuromorphic processors (NPs)\ncan enhance the energy efficiency of deployments of artificial intelligence\n(AI) for specific workloads. As such, NP represents an interesting opportunity\nfor implementing AI tasks on board power-limited satellite communication\nspacecraft. In this article, we disseminate the findings of a recently\ncompleted study which targeted the comparison in terms of performance and\npower-consumption of different satellite communication use cases implemented on\nstandard AI accelerators and on NPs. In particular, the article describes three\nprominent use cases, namely payload resource optimization, onboard interference\ndetection and classification, and dynamic receive beamforming; and compare the\nperformance of conventional convolutional neural networks (CNNs) implemented on\nXilinx's VCK5000 Versal development card and SNNs on Intel's neuromorphic chip\nLoihi 2.",
         "link": "http://arxiv.org/abs/2401.06911v1",
@@ -68,13 +40,6 @@
         "link": "http://arxiv.org/abs/2309.03221v1",
         "source": "arXiv",
         "date": "2023-08-31 19:53:04"
-    },
-    {
-        "title": "Open the box of digital neuromorphic processor: Towards effective\n  algorithm-hardware co-design",
-        "summary": "Sparse and event-driven spiking neural network (SNN) algorithms are the ideal\ncandidate solution for energy-efficient edge computing. Yet, with the growing\ncomplexity of SNN algorithms, it isn't easy to properly benchmark and optimize\ntheir computational cost without hardware in the loop. Although digital\nneuromorphic processors have been widely adopted to benchmark SNN algorithms,\ntheir black-box nature is problematic for algorithm-hardware co-optimization.\nIn this work, we open the black box of the digital neuromorphic processor for\nalgorithm designers by presenting the neuron processing instruction set and\ndetailed energy consumption of the SENeCA neuromorphic architecture. For\nconvenient benchmarking and optimization, we provide the energy cost of the\nessential neuromorphic components in SENeCA, including neuron models and\nlearning rules. Moreover, we exploit the SENeCA's hierarchical memory and\nexhibit an advantage over existing neuromorphic processors. We show the energy\nefficiency of SNN algorithms for video processing and online learning, and\ndemonstrate the potential of our work for optimizing algorithm designs.\nOverall, we present a practical approach to enable algorithm designers to\naccurately benchmark SNN algorithms and pave the way towards effective\nalgorithm-hardware co-design.",
-        "link": "http://arxiv.org/abs/2303.15224v1",
-        "source": "arXiv",
-        "date": "2023-03-27 14:03:11"
     },
     {
         "title": "Gradient-descent hardware-aware training and deployment for mixed-signal\n  Neuromorphic processors",
