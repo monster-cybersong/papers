@@ -4,6 +4,7 @@ Automatically updated list of papers.
 
 | Title | Abstract | Link | Source | Date |
 |-------|----------|------|--------|------|
+| SpikeFit: Towards Optimal Deployment of Spiking Networks on Neuromorphic Hardware | No abstract available | [Link](http://arxiv.org/abs/2510.15542v1) | arXiv | 2025-10-17 11:20:11 |
 | Fully Integrated Memristive Spiking Neural Network with Analog Neurons for High&#45;Speed Event&#45;Based Data Processing | No abstract available | [Link](http://arxiv.org/abs/2509.04960v1) | arXiv | 2025-09-05 09:38:27 |
 | Energy efficiency analysis of Spiking Neural Networks for space applications | No abstract available | [Link](http://arxiv.org/abs/2505.11418v1) | arXiv | 2025-05-16 16:29:50 |
 | Adaptively Pruned Spiking Neural Networks for Energy&#45;Efficient Intracortical Neural Decoding | No abstract available | [Link](http://arxiv.org/abs/2504.11568v1) | arXiv | 2025-04-15 19:16:34 |
