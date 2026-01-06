@@ -9,7 +9,7 @@
     {
         "title": "MD-SNN: Membrane Potential-aware Distillation on Quantized Spiking Neural Network",
         "summary": "Spiking Neural Networks (SNNs) offer a promising and energy-efficient alternative to conventional neural networks, thanks to their sparse binary activation. However, they face challenges regarding memory and computation overhead due to complex spatio-temporal dynamics and the necessity for multiple backpropagation computations across timesteps during training. To mitigate this overhead, compression techniques such as quantization are applied to SNNs. Yet, naively applying quantization to SNNs introduces a mismatch in membrane potential, a crucial factor for the firing of spikes, resulting in accuracy degradation. In this paper, we introduce Membrane-aware Distillation on quantized Spiking Neural Network (MD-SNN), which leverages membrane potential to mitigate discrepancies after weight, membrane potential, and batch normalization quantization. To our knowledge, this study represents the first application of membrane potential knowledge distillation in SNNs. We validate our approach on various datasets, including CIFAR10, CIFAR100, N-Caltech101, and TinyImageNet, demonstrating its effectiveness for both static and dynamic data scenarios. Furthermore, for hardware efficiency, we evaluate the MD-SNN with SpikeSim platform, finding that MD-SNNs achieve 14.85X lower energy-delay-area product (EDAP), 2.64X higher TOPS/W, and 6.19X higher TOPS/mm2 compared to floating point SNNs at iso-accuracy on N-Caltech101 dataset.",
-        "link": "http://arxiv.org/abs/2512.04443v1",
+        "link": "http://arxiv.org/abs/2512.04443v2",
         "source": "arXiv",
         "date": "2025-12-04 04:27:19"
     },
