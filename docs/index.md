@@ -4,6 +4,7 @@ Automatically updated list of papers.
 
 | Title | Abstract | Link | Source | Date |
 |-------|----------|------|--------|------|
+| Energy&#45;Efficient Neuromorphic Computing for Edge AI: A Framework with Adaptive Spiking Neural Networks and Hardware&#45;Aware Optimization | No abstract available | [Link](http://arxiv.org/abs/2602.02439v1) | arXiv | 2026-02-02 18:34:48 |
 | Neuromorphic Processor Employing FPGA Technology with Universal Interconnections | No abstract available | [Link](http://arxiv.org/abs/2512.10180v1) | arXiv | 2025-12-11 00:35:48 |
 | MD&#45;SNN: Membrane Potential&#45;aware Distillation on Quantized Spiking Neural Network | No abstract available | [Link](http://arxiv.org/abs/2512.04443v2) | arXiv | 2025-12-04 04:27:19 |
 | Fractional&#45;order Spiking Neural Network | No abstract available | [Link](http://arxiv.org/abs/2507.16937v2) | arXiv | 2025-07-22 18:20:56 |
