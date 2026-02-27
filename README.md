@@ -5,7 +5,6 @@ Automatically updated list of papers.
 | Title | Abstract | Link | Source | Date |
 |-------|----------|------|--------|------|
 | Energy&#45;Efficient Neuromorphic Computing for Edge AI: A Framework with Adaptive Spiking Neural Networks and Hardware&#45;Aware Optimization | No abstract available | [Link](http://arxiv.org/abs/2602.02439v1) | arXiv | 2026-02-02 18:34:48 |
-| Spark: Modular Spiking Neural Networks | No abstract available | [Link](http://arxiv.org/abs/2602.02306v2) | arXiv | 2026-02-02 16:36:58 |
 | Neuromorphic Processor Employing FPGA Technology with Universal Interconnections | No abstract available | [Link](http://arxiv.org/abs/2512.10180v1) | arXiv | 2025-12-11 00:35:48 |
 | MD&#45;SNN: Membrane Potential&#45;aware Distillation on Quantized Spiking Neural Network | No abstract available | [Link](http://arxiv.org/abs/2512.04443v2) | arXiv | 2025-12-04 04:27:19 |
 | Fractional&#45;order Spiking Neural Network | No abstract available | [Link](http://arxiv.org/abs/2507.16937v2) | arXiv | 2025-07-22 18:20:56 |
@@ -27,3 +26,4 @@ Automatically updated list of papers.
 | Open the box of digital neuromorphic processor: Towards effective algorithm&#45;hardware co&#45;design | No abstract available | [Link](http://arxiv.org/abs/2303.15224v1) | arXiv | 2023-03-27 14:03:11 |
 | MT&#45;SNN: Enhance Spiking Neural Network with Multiple Thresholds | No abstract available | [Link](http://arxiv.org/abs/2303.11127v2) | arXiv | 2023-03-20 14:04:50 |
 | Gradient&#45;descent hardware&#45;aware training and deployment for mixed&#45;signal Neuromorphic processors | No abstract available | [Link](http://arxiv.org/abs/2303.12167v2) | arXiv | 2023-03-14 08:56:54 |
+| Hybrid Spiking Neural Network Fine&#45;tuning for Hippocampus Segmentation | No abstract available | [Link](http://arxiv.org/abs/2302.07328v1) | arXiv | 2023-02-14 20:18:57 |

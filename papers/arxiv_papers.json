@@ -7,13 +7,6 @@
         "date": "2026-02-02 18:34:48"
     },
     {
-        "title": "Spark: Modular Spiking Neural Networks",
-        "summary": "Nowadays, neural networks act as a synonym for artificial intelligence. Present neural network models, although remarkably powerful, are inefficient both in terms of data and energy. Several alternative forms of neural networks have been proposed to address some of these problems. Specifically, spiking neural networks are suitable for efficient hardware implementations. However, effective learning algorithms for spiking networks remain elusive, although it is suspected that effective plasticity mechanisms could alleviate the problem of data efficiency. Here, we present a new framework for spiking neural networks - Spark - built upon the idea of modular design, from simple components to entire models. The aim of this framework is to provide an efficient and streamlined pipeline for spiking neural networks. We showcase this framework by solving the sparse-reward cartpole problem with simple plasticity mechanisms. We hope that a framework compatible with traditional ML pipelines may accelerate research in the area, specifically for continuous and unbatched learning, akin to the one animals exhibit.",
-        "link": "http://arxiv.org/abs/2602.02306v2",
-        "source": "arXiv",
-        "date": "2026-02-02 16:36:58"
-    },
-    {
         "title": "Neuromorphic Processor Employing FPGA Technology with Universal Interconnections",
         "summary": "Neuromorphic computing, inspired by biological neural systems, holds immense promise for ultra-low-power and real-time inference applications. However, limited access to flexible, open-source platforms continues to hinder widespread adoption and experimentation. In this paper, we present a low-cost neuromorphic processor implemented on a Xilinx Zynq-7000 FPGA platform. The processor supports all-to-all configurable connectivity and employs the leaky integrate-and-fire (LIF) neuron model with customizable parameters such as threshold, synaptic weights, and refractory period. Communication with the host system is handled via a UART interface, enabling runtime reconfiguration without hardware resynthesis. The architecture was validated using benchmark datasets including the Iris classification and MNIST digit recognition tasks. Post-synthesis results highlight the design's energy efficiency and scalability, establishing its viability as a research-grade neuromorphic platform that is both accessible and adaptable for real-world spiking neural network applications. This implementation will be released as open source following project completion.",
         "link": "http://arxiv.org/abs/2512.10180v1",
@@ -159,5 +152,12 @@
         "link": "http://arxiv.org/abs/2303.12167v2",
         "source": "arXiv",
         "date": "2023-03-14 08:56:54"
+    },
+    {
+        "title": "Hybrid Spiking Neural Network Fine-tuning for Hippocampus Segmentation",
+        "summary": "Over the past decade, artificial neural networks (ANNs) have made tremendous advances, in part due to the increased availability of annotated data. However, ANNs typically require significant power and memory consumptions to reach their full potential. Spiking neural networks (SNNs) have recently emerged as a low-power alternative to ANNs due to their sparsity nature. SNN, however, are not as easy to train as ANNs. In this work, we propose a hybrid SNN training scheme and apply it to segment human hippocampi from magnetic resonance images. Our approach takes ANN-SNN conversion as an initialization step and relies on spike-based backpropagation to fine-tune the network. Compared with the conversion and direct training solutions, our method has advantages in both segmentation accuracy and training efficiency. Experiments demonstrate the effectiveness of our model in achieving the design goals.",
+        "link": "http://arxiv.org/abs/2302.07328v1",
+        "source": "arXiv",
+        "date": "2023-02-14 20:18:57"
     }
 ]
