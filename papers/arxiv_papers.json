@@ -1,5 +1,12 @@
 [
     {
+        "title": "mlx-snn: Spiking Neural Networks on Apple Silicon via MLX",
+        "summary": "We introduce mlx-snn, the first spiking neural network (SNN) library built natively on Apple's MLX framework. As SNN research grows rapidly, all major libraries -- snnTorch, Norse, SpikingJelly, Lava -- target PyTorch or custom backends, leaving Apple Silicon users without a native option. mlx-snn provides six neuron models (LIF, IF, Izhikevich, Adaptive LIF, Synaptic, Alpha), four surrogate gradient functions, four spike encoding methods (including an EEG-specific encoder), and a complete backpropagation-through-time training pipeline. The library leverages MLX's unified memory architecture, lazy evaluation, and composable function transforms (mx.grad, mx.compile) to enable efficient SNN research on Apple Silicon hardware. We validate mlx-snn on MNIST digit classification across five hyperparameter configurations and three backends, achieving up to 97.28% accuracy with 2.0--2.5 times faster training and 3--10 times lower GPU memory than snnTorch on the same M3 Max hardware. mlx-snn is open-source under the MIT license and available on PyPI. https://github.com/D-ST-Sword/mlx-snn",
+        "link": "http://arxiv.org/abs/2603.03529v1",
+        "source": "arXiv",
+        "date": "2026-03-03 21:25:36"
+    },
+    {
         "title": "Energy-Efficient Neuromorphic Computing for Edge AI: A Framework with Adaptive Spiking Neural Networks and Hardware-Aware Optimization",
         "summary": "Edge AI applications increasingly require ultra-low-power, low-latency inference. Neuromorphic computing based on event-driven spiking neural networks (SNNs) offers an attractive path, but practical deployment on resource-constrained devices is limited by training difficulty, hardware-mapping overheads, and sensitivity to temporal dynamics. We present NeuEdge, a framework that combines adaptive SNN models with hardware-aware optimization for edge deployment. NeuEdge uses a temporal coding scheme that blends rate and spike-timing patterns to reduce spike activity while preserving accuracy, and a hardware-aware training procedure that co-optimizes network structure and on-chip placement to improve utilization on neuromorphic processors. An adaptive threshold mechanism adjusts neuron excitability from input statistics, reducing energy consumption without degrading performance. Across standard vision and audio benchmarks, NeuEdge achieves 91-96% accuracy with up to 2.3 ms inference latency on edge hardware and an estimated 847 GOp/s/W energy efficiency. A case study on an autonomous-drone workload shows up to 312x energy savings relative to conventional deep neural networks while maintaining real-time operation.",
         "link": "http://arxiv.org/abs/2602.02439v1",
@@ -152,12 +159,5 @@
         "link": "http://arxiv.org/abs/2303.12167v2",
         "source": "arXiv",
         "date": "2023-03-14 08:56:54"
-    },
-    {
-        "title": "Hybrid Spiking Neural Network Fine-tuning for Hippocampus Segmentation",
-        "summary": "Over the past decade, artificial neural networks (ANNs) have made tremendous advances, in part due to the increased availability of annotated data. However, ANNs typically require significant power and memory consumptions to reach their full potential. Spiking neural networks (SNNs) have recently emerged as a low-power alternative to ANNs due to their sparsity nature. SNN, however, are not as easy to train as ANNs. In this work, we propose a hybrid SNN training scheme and apply it to segment human hippocampi from magnetic resonance images. Our approach takes ANN-SNN conversion as an initialization step and relies on spike-based backpropagation to fine-tune the network. Compared with the conversion and direct training solutions, our method has advantages in both segmentation accuracy and training efficiency. Experiments demonstrate the effectiveness of our model in achieving the design goals.",
-        "link": "http://arxiv.org/abs/2302.07328v1",
-        "source": "arXiv",
-        "date": "2023-02-14 20:18:57"
     }
 ]
