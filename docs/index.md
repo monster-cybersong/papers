@@ -18,7 +18,7 @@ Automatically updated list of papers.
 | Event&#45;based Optical Flow on Neuromorphic Processor: ANN vs. SNN Comparison based on Activation Sparsification | No abstract available | [Link](http://arxiv.org/abs/2407.20421v1) | arXiv | 2024-07-29 21:22:53 |
 | Towards Efficient Deployment of Hybrid SNNs on Neuromorphic and Edge AI Hardware | No abstract available | [Link](http://arxiv.org/abs/2407.08704v1) | arXiv | 2024-07-11 17:40:39 |
 | Spike&#45;driven Transformer V2: Meta Spiking Neural Network Architecture Inspiring the Design of Next&#45;generation Neuromorphic Chips | No abstract available | [Link](http://arxiv.org/abs/2404.03663v1) | arXiv | 2024-02-15 13:26:18 |
-| TT&#45;SNN: Tensor Train Decomposition for Efficient Spiking Neural Network Training | No abstract available | [Link](http://arxiv.org/abs/2401.08001v1) | arXiv | 2024-01-15 23:08:19 |
+| TT&#45;SNN: Tensor Train Decomposition for Efficient Spiking Neural Network Training | No abstract available | [Link](http://arxiv.org/abs/2401.08001v2) | arXiv | 2024-01-15 23:08:19 |
 | Investigating Continuous Learning in Spiking Neural Networks | No abstract available | [Link](http://arxiv.org/abs/2310.05343v1) | arXiv | 2023-10-09 02:08:18 |
 | Advanced Computing and Related Applications Leveraging Brain&#45;inspired Spiking Neural Networks | No abstract available | [Link](http://arxiv.org/abs/2309.04426v1) | arXiv | 2023-09-08 16:41:08 |
 | Expressivity of Spiking Neural Networks | No abstract available | [Link](http://arxiv.org/abs/2308.08218v2) | arXiv | 2023-08-16 08:45:53 |
