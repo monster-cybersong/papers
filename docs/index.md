@@ -4,6 +4,7 @@ Automatically updated list of papers.
 
 | Title | Abstract | Link | Source | Date |
 |-------|----------|------|--------|------|
+| Chemical Reaction Networks Learn Better than Spiking Neural Networks | No abstract available | [Link](http://arxiv.org/abs/2603.12060v1) | arXiv | 2026-03-12 15:27:33 |
 | mlx&#45;snn: Spiking Neural Networks on Apple Silicon via MLX | No abstract available | [Link](http://arxiv.org/abs/2603.03529v1) | arXiv | 2026-03-03 21:25:36 |
 | Energy&#45;Efficient Neuromorphic Computing for Edge AI: A Framework with Adaptive Spiking Neural Networks and Hardware&#45;Aware Optimization | No abstract available | [Link](http://arxiv.org/abs/2602.02439v1) | arXiv | 2026-02-02 18:34:48 |
 | Neuromorphic Processor Employing FPGA Technology with Universal Interconnections | No abstract available | [Link](http://arxiv.org/abs/2512.10180v1) | arXiv | 2025-12-11 00:35:48 |
