@@ -1,5 +1,12 @@
 [
     {
+        "title": "Memristor-Based Spiking Neural Network Accelerator for Bio-inspired Interception Task",
+        "summary": "Spiking neural networks (SNNs) provide event-driven and low-power computation inspired by biological neural systems, but current implementations rely on von Neumann graphics processing units (GPUs) and central processing units (CPUs) platforms, where memory and computation bottlenecks limit energy efficiency. To address this challenge, this paper proposes an analog memristor-based spiking neural network (SNN) accelerator that integrates in-memory synaptic computation with analog integrate-and-fire (IF) neurons, eliminating multi-transistor CMOS synapse circuits and enabling asynchronous event-driven operation at the 45nm technology node. Additionally, a digital SNN accelerator is designed and optimized at the 5 nm technology node for comparison. The proposed architecture is evaluated using a predator-prey tracking task that emulates pursuit behavior. In this task, the analog SNN accelerator's inference closely matches the ideal software inference with a mean squared error (MSE) of 0.004. HSPICE simulation results show that the proposed analog SNN accelerator achieves 12.7 times lower energy consumption and 1.26 times lower delay compared to the digital baseline, demonstrating the potential of memristor-based neuromorphic circuits for energy-efficient real-time edge intelligence.",
+        "link": "http://arxiv.org/abs/2605.31299v1",
+        "source": "arXiv",
+        "date": "2026-05-29 13:34:07"
+    },
+    {
         "title": "Chemical Reaction Networks Learn Better than Spiking Neural Networks",
         "summary": "We mathematically prove that chemical reaction networks without hidden layers can solve tasks for which spiking neural networks require hidden layers. Our proof uses the deterministic mass-action kinetics formulation of chemical reaction networks. Specifically, we prove that a certain reaction network without hidden layers can learn a classification task previously proved to be achievable by a spiking neural network with hidden layers. We provide analytical regret bounds for the global behavior of the network and analyze its asymptotic behavior and Vapnik-Chervonenkis dimension. In a numerical experiment, we confirm the learning capacity of the proposed chemical reaction network for classifying handwritten digits in pixel images, and we show that it solves the task more accurately and efficiently than a spiking neural network with hidden layers. This provides a motivation for machine learning in chemical computers and a mathematical explanation for how biological cells might exhibit more efficient learning behavior within biochemical reaction networks than neuronal networks.",
         "link": "http://arxiv.org/abs/2603.12060v1",
@@ -33,13 +40,6 @@
         "link": "http://arxiv.org/abs/2512.04443v2",
         "source": "arXiv",
         "date": "2025-12-04 04:27:19"
-    },
-    {
-        "title": "Fractional-order Spiking Neural Network",
-        "summary": "Spiking Neural Networks (SNNs) draw inspiration from biological neurons to enable brain-like computation, demonstrating effectiveness in processing temporal information with energy efficiency and biological realism. Most existing SNNs are based on neural dynamics such as the (leaky) integrate-and-fire (IF/LIF) models, which are described by first-order ordinary differential equations (ODEs) with Markovian characteristics. This means the potential state at any time depends solely on its immediate past value, potentially limiting network expressiveness. Empirical studies of real neurons, however, reveal long-range correlations and fractal dendritic structures, suggesting non-Markovian behavior better modeled by fractional-order ODEs. Motivated by this, we propose a fractional-order spiking neural network (f-SNN) framework that strictly generalizes integer-order SNNs and captures long-term dependencies in membrane potential and spike trains via fractional dynamics, enabling richer temporal patterns. We further release an open-source toolbox, spikeDE, to support the f-SNN framework across diverse architectures and real-world tasks. Experimentally, fractional adaptations of established SNNs into the f-SNN framework achieve superior accuracy, comparable energy efficiency, and improved robustness to noise, underscoring the promise of f-SNNs as an effective extension of traditional SNNs.",
-        "link": "http://arxiv.org/abs/2507.16937v3",
-        "source": "arXiv",
-        "date": "2025-07-22 18:20:56"
     },
     {
         "title": "NeuroCoreX: An Open-Source FPGA-Based Spiking Neural Network Emulator with On-Chip Learning",
