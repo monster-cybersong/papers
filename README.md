@@ -4,6 +4,7 @@ Automatically updated list of papers.
 
 | Title | Abstract | Link | Source | Date |
 |-------|----------|------|--------|------|
+| Spiking Neural Network inference on FPGAs with hls4ml | No abstract available | [Link](http://arxiv.org/abs/2606.10008v1) | arXiv | 2026-06-08 18:01:16 |
 | Memristor&#45;Based Spiking Neural Network Accelerator for Bio&#45;inspired Interception Task | No abstract available | [Link](http://arxiv.org/abs/2605.31299v1) | arXiv | 2026-05-29 13:34:07 |
 | Chemical Reaction Networks Learn Better than Spiking Neural Networks | No abstract available | [Link](http://arxiv.org/abs/2603.12060v1) | arXiv | 2026-03-12 15:27:33 |
 | mlx&#45;snn: Spiking Neural Networks on Apple Silicon via MLX | No abstract available | [Link](http://arxiv.org/abs/2603.03529v1) | arXiv | 2026-03-03 21:25:36 |
